@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "1": "node lesson2/fs_test_directory/createFiles.js",
+    "2": "node lesson2/fs_test_directory/removeFiles.js",
+    "3": "node lesson2/fs_test_directory/appendNumber.js",
+    "4": "node lesson2/fs_test_directory/scanDir.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.5.0",
+    "yodasay-extended": "^1.0.1",
+    "yosay": "^2.0.2"
+  }
+}
